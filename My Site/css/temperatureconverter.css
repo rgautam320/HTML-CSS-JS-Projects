@@ -1,0 +1,87 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   background-color: rgb(242, 255, 167);
+}
+
+.myContainer {
+   margin-bottom: 60px;
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+
+.main {
+   width: 60%;
+   height: 500px;
+   margin: auto;
+   padding: 50px 10px;
+}
+
+form h2 {
+   text-align: center;
+   font-weight: bolder;
+   color: blue;
+   font-size: 2.5rem;
+   padding: 10px;
+   padding-bottom: 25px;
+}
+
+.input-field {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.input-field input,
+.input-field select {
+   width: 33%;
+   margin: 10px;
+   height: 50px;
+   padding: 10px 40px;
+   border-radius: 10px;
+   border: none;
+}
+
+.input-field input:focus,
+.input-field select:focus {
+   outline: none;
+}
+
+.myBtn {
+   background-color: blue;
+   color: white;
+   font-size: 1.2rem;
+   font-weight: bolder;
+   margin-top: 25px;
+}
+
+.myBtn:hover {
+   background-color: rgb(0, 253, 0);
+   transition: 1s;
+}
+
+.answerField {
+   text-align: center;
+   color: blue;
+   margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+   .input-field {
+      display: block;
+   }
+   .input-field input,
+   .input-field select {
+      width: 100%;
+   }
+
+   form h2 {
+      font-size: 1.5rem;
+   }
+
+   .answerField {
+      font-size: 1.5rem;
+   }
+}

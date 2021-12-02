@@ -1,0 +1,81 @@
+* {
+   box-sizing: border-box;
+}
+
+.top-margin {
+   padding-top: 80px;
+}
+
+.my-body {
+   margin-top: 40px;
+}
+
+/* For the Heading Part  */
+.my-game-heading {
+   font-weight: bolder;
+   font-size: 3em;
+   padding: 5px;
+}
+
+.my-game-desc {
+   justify-content: center;
+   text-align: justify;
+}
+
+/* Designing my Board */
+.board {
+   margin-bottom: 50px;
+}
+
+.board button {
+   width: 70px;
+   height: 70px;
+   background-color: azure;
+   border: 3px solid blue;
+   margin: 1px;
+   border-radius: 50%;
+   outline: none;
+}
+
+/* For the input field  */
+.my-input-field {
+   padding: 10px;
+   display: block;
+}
+
+.my-input-box {
+   width: 90%;
+   height: 40px;
+   border: 1px solid black;
+   margin: 10px 5px;
+   padding-left: 10px;
+   border-radius: 10px;
+}
+
+.my-input-box:focus {
+   outline-width: 0px;
+}
+
+.my-buttons {
+   width: 100px;
+   color: white;
+   font-weight: bold;
+   height: 40px;
+   margin: 10px;
+   outline-width: 0px;
+   border-radius: 5px;
+}
+
+.my-buttons:hover {
+   background-color: blue;
+   transform: translateX(1px) translateY(-1px);
+   transition: 1s;
+}
+
+/* Adding Media Query for Smaller Size */
+@media (max-width: 576px) {
+   .board button {
+      width: 50px;
+      height: 50px;
+   }
+}

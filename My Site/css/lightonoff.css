@@ -1,0 +1,68 @@
+* {
+   box-sizing: border-box;
+}
+
+.top-margin {
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+
+.myContainer {
+   height: 768px;
+   background-color: rgb(122, 122, 122);
+}
+#myHeading {
+   color: white;
+   font-weight: bolder;
+   font-size: 2rem;
+   text-align: center;
+   padding: 30px 5px;
+}
+
+.myCard {
+   width: 80%;
+   height: 400px;
+   margin: auto;
+}
+
+.myBody {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+   padding: 20px;
+}
+
+.myCard img {
+   height: 300px;
+   width: auto;
+}
+
+.myBtn {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.my-on-btn,
+.my-off-btn {
+   background-color: blue;
+   border: blue;
+   color: white;
+   font-weight: bolder;
+   width: auto;
+   margin: 5px 20px;
+   /* transition: 1s; */
+}
+
+.my-on-btn:hover,
+.my-off-btn:hover {
+   transform: translateX(2px) translateY(-2px);
+   transition: 1s;
+}
+
+.my-on-btn:focus,
+.my-off-btn:focus {
+   box-shadow: none;
+}

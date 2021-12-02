@@ -1,0 +1,129 @@
+* {
+   box-sizing: border-box;
+}
+
+.top-margin {
+   padding-top: 100px;
+   padding-bottom: 40px;
+}
+
+.myCard {
+   height: 300px;
+   width: 33.33%;
+   background-color: antiquewhite;
+   border: 5px solid white;
+   position: relative;
+   border-radius: 20px;
+   padding: 10px;
+}
+
+.myIcons {
+   position: absolute;
+   display: block;
+   right: 10px;
+   top: 15px;
+}
+
+.btn {
+   border: none;
+   outline: none;
+   background-color: transparent;
+   border-radius: 50%;
+}
+
+.btn i {
+   line-height: 30px;
+   vertical-align: middle;
+   text-align: center;
+}
+
+.edit {
+   background-color: white;
+   color: blue;
+   transition: all 2s;
+}
+
+.delete {
+   background-color: white;
+   color: red;
+   transition: all 2s;
+}
+
+.edit:hover {
+   background-color: blue;
+   color: white;
+   transform: translateX(2px) translateY(-2px);
+}
+
+.delete:hover {
+   background-color: red;
+   color: white;
+   transform: translateX(2px) translateY(-2px);
+}
+
+.main {
+   margin-top: 60px;
+   padding: 20px;
+   font-size: 1.2rem;
+   height: 200px;
+   color: black;
+   font-weight: bold;
+   text-align: justify;
+   overflow-y: scroll;
+}
+
+.mytxt {
+   width: 100%;
+   height: auto;
+   outline: none;
+   border: none;
+   resize: none;
+   overflow-y: scroll;
+   padding: 20px;
+   margin-top: 60px;
+   background-color: antiquewhite;
+   font-weight: bold;
+}
+
+.mytxt:focus {
+   border: none;
+   outline: none;
+}
+
+/* My Plus Button  */
+
+.my-btn-section {
+   height: 100px;
+}
+
+.addBtn {
+   position: absolute;
+   right: 20px;
+   top: 20px;
+   border: none;
+   outline: none;
+   padding: 10px 16px;
+   color: blue;
+   font-size: 25px;
+   background-color: transparent;
+   transition: all 1s;
+   border-radius: 16px;
+}
+
+.addBtn:focus {
+   outline: none;
+   border: none;
+}
+
+.addBtn:hover {
+   background-color: blue;
+   color: white;
+}
+
+.addBtn i {
+   padding-right: 8px;
+}
+
+.hidden {
+   display: none;
+}

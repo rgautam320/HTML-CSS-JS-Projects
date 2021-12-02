@@ -1,0 +1,47 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   background-color: rgb(122, 122, 122);
+}
+
+.top-margin {
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+
+.myCard {
+   width: 80%;
+   height: 400px;
+   margin: auto;
+}
+
+#myHeading {
+   color: white;
+   font-weight: bolder;
+   font-size: 4rem;
+   text-align: center;
+   padding: 50px 5px;
+}
+
+#myBody {
+   margin-top: 20px;
+}
+
+#myBody h1 {
+   text-align: center;
+   font-size: 10rem;
+}
+
+@media (max-width: 768px) {
+   #myHeading {
+      font-size: 3rem;
+   }
+}
+
+@media (max-width: 576px) {
+   #myHeading {
+      font-size: 2rem;
+   }
+}

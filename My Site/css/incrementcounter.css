@@ -1,0 +1,81 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   background-color: rgb(143, 143, 143);
+}
+
+.myContainer {
+   margin-bottom: 60px;
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+
+.main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 70%;
+   height: auto;
+   background-color: rgb(112, 121, 247);
+   margin: auto;
+   margin-top: 80px;
+   border-radius: 25px;
+   padding: 80px 10px;
+}
+
+.count {
+   padding: 20px 20px;
+   width: 33%;
+   text-align: center;
+}
+
+.count h1 {
+   color: rgb(255, 0, 106);
+   font-size: 4rem;
+}
+
+.count h2 {
+   color: rgb(255, 208, 0);
+}
+
+.count h3 {
+   color: rgb(255, 255, 255);
+   font-weight: bolder;
+}
+
+.count-project {
+   font-size: 3rem;
+   color: white;
+   font-weight: bolder;
+   text-align: center;
+}
+
+@media (max-width: 992px) {
+   .main {
+      display: block;
+   }
+
+   .count {
+      width: 100%;
+   }
+}
+
+@media (max-width: 576px) {
+   .main {
+      width: 90%;
+   }
+
+   .count-project {
+      font-size: 2.5rem;
+   }
+
+   .count h1 {
+      font-size: 2.5rem;
+   }
+
+   .count h3 {
+      font-size: 1.8rem;
+   }
+}

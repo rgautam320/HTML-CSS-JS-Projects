@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Thermometer</title>
+
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/71542496?v=4">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"">
+    <link rel=" stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js">
+    </script>
+    <link rel="stylesheet" href="../css/template.css">
+    <link rel="stylesheet" href="../css/animatedthermometer.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary my-navbar">
+        <a class="navbar-brand my-brand" href="../home.html">My Games</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto my-bar">
+                <li class="nav-item my-item">
+                    <a class="nav-link" href="../home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item my-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Games </a>
+                    <div class="dropdown-menu bg-primary my-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item my-dropdown-item" href="../html/tictactoe.html">TicTacToe</a>
+                        <a class="dropdown-item my-dropdown-item" href="../html/connect4game.html">Connect 4 Game</a>
+                    </div>
+                </li>
+                <li class="nav-item my-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Apps </a>
+                    <div class="dropdown-menu bg-primary my-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item my-dropdown-item" href="../html/countryinfo.html">Country Info</a>
+                        <a class="dropdown-item my-dropdown-item" href="../html/makeyouday.html">Make Your Day</a>
+                        <a class="dropdown-item my-dropdown-item" href="../html/lightonoff.html">Light ON/OFF</a>
+                        <a class="dropdown-item my-dropdown-item" href="../html/animatedthermometer.html">Animated
+                            Thermometer</a>
+                        <a class="dropdown-item my-dropdown-item" href="../html/temperatureconverter.html">Temperature
+                            Converter</a>
+                        <a class="dropdown-item my-dropdown-item" href="../html/incrementcounter.html">Increment
+                            Counter</a>
+                        <a class="dropdown-item my-dropdown-item" href="../html/mytunes.html">My Tunes</a>
+                    </div>
+                </li>
+                <li class="nav-item my-item active"><a class="nav-link" href="../html/mykeepclone.html">My Keep
+                        Clone</a></li>
+                <li class="nav-item my-item"><a class="nav-link" href="https://github.com/rgautam320"
+                        target="_blank">About
+                        Me</a></li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search"
+                    value="" />
+                <button class="btn btn-outline-success my-2 my-sm-0 my-search-btn" id="searchBtn">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="myContainer top-margin" id="myContainer" id="myContainer">
+        <div class="myCard">
+            <div>
+                <h1 id="myHeading">Hey, I am Thermometer</h1>
+            </div>
+            <div id="myBody">
+                <h1><span id="temp" class="fa"></span></h1>
+            </div>
+        </div>
+    </div>
+
+    <footer class="my-footer text-center text-lg-start">
+        <p>Copyright &copy; 2021, <a href="https://github.com/rgautam320" class="my-name" target="_blank">Rajan
+                Gautam</a>
+        </p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+    <script src="../js/animatedthermometer.js"></script>
+</body>
+
+</html>

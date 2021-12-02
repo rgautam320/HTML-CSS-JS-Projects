@@ -1,0 +1,133 @@
+* {
+   box-sizing: border-box;
+   font-family: "Ubuntu", sans-serif;
+}
+
+.top-margin {
+   padding-top: 100px;
+   padding-bottom: 40px;
+}
+
+.container {
+   display: grid;
+   place-items: center;
+}
+
+.myTuneBox {
+   width: 350px;
+   height: 620px;
+   box-shadow: 0 0 4px 3px grey;
+   padding: 20px 10px;
+   border-radius: 4rem;
+   text-align: center;
+}
+
+.myTuneBox img {
+   height: 300px;
+   width: 300px;
+   margin: auto;
+   border-radius: 50%;
+   box-shadow: 0 0 4px 3px blue;
+}
+
+.for-padding {
+   padding: 10px 5px;
+}
+
+.heading {
+   height: 65px;
+   overflow: hidden;
+}
+
+.music_heading {
+   text-transform: capitalize;
+   overflow: hidden;
+}
+
+.artist_name {
+   color: rgb(75, 75, 75);
+}
+
+.controls {
+   display: flex;
+   justify-content: space-around;
+   font-size: 1.5rem;
+}
+
+.btns {
+   height: 3rem;
+   width: 3rem;
+   border: none;
+   outline: none;
+   outline-width: 0;
+   background-color: transparent;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btns:focus {
+   outline: none;
+   border: none;
+   outline-width: 0;
+}
+
+.hover {
+   color: black;
+   transition: all 1s;
+}
+
+.hover:hover {
+   color: rgb(142, 36, 241);
+}
+
+.background {
+   background-color: black;
+   color: white;
+   border-radius: 50%;
+   padding: 5px;
+   transition: all 1s;
+}
+
+.background:hover {
+   background-color: white;
+   color: black;
+   box-shadow: 0 0 2px 3px rgb(42, 230, 220);
+}
+
+.anime {
+   animation-name: rotatingimage;
+   animation-timing-function: linear;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+}
+
+/* For Progress Bar  */
+.time_dur {
+   position: relative;
+   display: flex;
+   justify-content: space-around;
+}
+
+.left_time {
+   position: absolute;
+   left: 20px;
+}
+
+.right_time {
+   position: absolute;
+   right: 20px;
+}
+
+progress {
+   width: 90%;
+   margin-top: 25px;
+}
+
+@keyframes rotatingimage {
+   from {
+      transform: rotate(0deg);
+   }
+   to {
+      transform: rotate(360deg);
+   }
+}

@@ -1,0 +1,77 @@
+* {
+   box-sizing: border-box;
+}
+
+/* This CSS is for Templete for Every Page  */
+.my-navbar {
+   width: 100%;
+   margin-bottom: 20px;
+   padding-left: 40px;
+   padding-right: 40px;
+   position: fixed;
+   z-index: 1000;
+}
+
+.my-brand {
+   font-size: 2em;
+   font-weight: bolder;
+}
+
+.my-bar {
+   padding-left: 10px;
+}
+
+.my-item {
+   font-size: 1.2em;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+.my-menu {
+   top: 60px;
+}
+
+.my-dropdown-item {
+   color: white;
+}
+
+.my-dropdown-item:hover {
+   background-color: transparent;
+}
+
+.my-search-btn {
+   color: white;
+   background-color: #28a745;
+}
+
+.my-search-btn:hover {
+   background-color: green;
+   transition: 1s;
+   transform: translateY(-1px) translateX(1px);
+}
+
+/* CSS for Footer  */
+.my-footer {
+   height: 30px;
+   width: 100%;
+   position: fixed;
+   bottom: 0px;
+   background-color: red;
+   color: white;
+   justify-content: center;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.my-name {
+   font-weight: bolder;
+   color: white;
+}
+
+.my-name:hover {
+   cursor: pointer;
+   color: white;
+   text-decoration: none;
+}

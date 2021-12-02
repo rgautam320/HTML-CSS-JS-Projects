@@ -1,0 +1,105 @@
+.top-margin {
+   padding-top: 80px;
+   padding-bottom: 30px;
+}
+
+.myContainer {
+   display: flex;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+   background-color: aquamarine;
+}
+
+.myCard {
+   width: 60%;
+   height: 400px;
+   margin: auto;
+   background-color: antiquewhite;
+   border: 2px solid rgb(74, 255, 38);
+   padding: 20px;
+   border-radius: 4%;
+}
+
+.heading {
+   height: 20%;
+}
+
+.myHeading {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: 25px;
+   font-weight: bolder;
+   color: blue;
+   font-size: 1.8rem;
+}
+
+.jokeCard {
+   text-align: center;
+   height: 100%;
+}
+
+.jokeDiv {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 68%;
+   padding: 10px;
+}
+
+.btnDiv {
+   height: 12%;
+}
+
+.jokeCard h4 {
+   font-weight: bolder;
+   padding: 20px;
+   font-size: 1.8rem;
+   vertical-align: middle;
+}
+
+.nextJokeBtn {
+   color: white;
+   width: 100px;
+}
+
+/* Adding Media Queries  */
+
+@media (max-width: 1200px) {
+   .myCard {
+      width: 65%;
+   }
+}
+
+@media (max-width: 992px) {
+   .myCard {
+      width: 70%;
+   }
+}
+
+@media (max-width: 768px) {
+   .myCard {
+      width: 80%;
+      padding: 10px;
+   }
+}
+
+@media (max-width: 576px) {
+   .myCard {
+      width: 100%;
+      padding: 5px;
+      margin: 10px;
+   }
+
+   .heading h3 {
+      font-size: 1.5rem;
+   }
+
+   .jokeCard h3 {
+      font-size: 1.8rem;
+   }
+
+   .jokeCard h4 {
+      font-size: 1.4rem;
+   }
+}

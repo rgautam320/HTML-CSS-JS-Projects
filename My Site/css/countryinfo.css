@@ -1,0 +1,59 @@
+/* CSS for Heading  */
+.top-margin {
+   padding-top: 80px;
+}
+
+.myContainer {
+   justify-content: center;
+   align-items: center;
+   display: block;
+}
+
+.myCard {
+   margin-top: 10px;
+   margin-bottom: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px;
+   width: 400px;
+}
+
+.card {
+   width: 400px;
+}
+
+.card-body {
+   width: 400px;
+   height: auto;
+   padding: 0;
+   margin: 0;
+}
+
+.card-body-title,
+.card-body-text {
+   text-align: center;
+}
+
+img {
+   width: 400px;
+   height: 450px;
+}
+
+.card-footer {
+   display: flex;
+   float: left;
+}
+
+.card-footer-social {
+   width: 33%;
+   text-align: center;
+}
+
+.card-footer-social h3 {
+   font-size: 1.1em;
+   font-weight: bold;
+}
+
+.card-footer-social p {
+   font-size: 0.8em;
+}
